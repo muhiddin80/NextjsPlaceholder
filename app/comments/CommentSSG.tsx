@@ -6,7 +6,7 @@ interface CommmentSSGProps {
 
 const CommentSSGPage = (props: CommmentSSGProps) => {
   return (
-    <div>
+    <div className="container">
       <h1>CommentPage</h1>
       {props.comments.map((comment) => (
         <div key={comment.id}>

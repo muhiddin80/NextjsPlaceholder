@@ -7,7 +7,7 @@ interface CommentsSSRProps {
 
 const CommentSSR = (props: CommentsSSRProps) => {
   return (
-    <div>
+    <div className="container">
       <h1>CommentsPage</h1>
       {props.comments.map((comment) => (
         <div key={comment.id}>

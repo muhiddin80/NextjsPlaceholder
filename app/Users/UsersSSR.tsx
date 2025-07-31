@@ -8,7 +8,7 @@ interface UserSSRProps {
 const UsersSSR = (props: UserSSRProps) => {
   console.log(props, "hello");
   return (
-    <div>
+    <div className="container">
       <h1>UsersSSR</h1>
       {props.users.map((user) => (
         <div key={user.id}>
