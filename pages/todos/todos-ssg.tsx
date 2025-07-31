@@ -6,7 +6,7 @@ export async function getStaticProps() {
   const res = await getTodos();
   const data = res?.data;
 
-  return { props: data, revalidate: 86400 };
+  return { props: { data }, revalidate: 86400 };
 }
 
 interface TodosSSGProps {

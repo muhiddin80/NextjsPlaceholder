@@ -6,7 +6,7 @@ export async function getStaticProps() {
   const res = await getTodos();
   const data = res?.data;
 
-  return { props: data };
+  return { props: { data } };
 }
 
 interface TodosSSRProps {
