@@ -1,6 +1,6 @@
-.user {
+.post {
   display: flex;
-  gap: 30px;
-  align-items: center;
+  gap: 5px;
   border-bottom: 1px solid white;
+  flex-direction: column;
 }

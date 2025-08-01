@@ -1,6 +1,5 @@
-.user {
+.comment {
   display: flex;
-  gap: 30px;
-  align-items: center;
   border-bottom: 1px solid white;
+  flex-direction: column;
 }

@@ -1,6 +1,7 @@
-.user {
+.todo {
   display: flex;
   gap: 30px;
   align-items: center;
   border-bottom: 1px solid white;
+  justify-content: space-between;
 }
